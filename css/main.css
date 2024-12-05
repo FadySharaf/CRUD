@@ -1,0 +1,19 @@
+
+body{
+    background-color: black;
+}
+
+
+.form-group label{
+    left: 20px;
+    color:#777;
+    transition: all 0.5s;
+
+}
+input:focus + label{
+    top: 0 !important;
+    left: 0;
+}
+h1{
+    color: rgb(124, 216, 43);
+}
